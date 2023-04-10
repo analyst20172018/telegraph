@@ -3,14 +3,6 @@ import logging
 import json
 import os
 
-"""
-    {'access_token': '17fc91354dfe45c52981e30bffdda72eea29a4f19b5c432fb0b6b04cfa5d',
-            'auth_url': 'https://edit.telegra.ph/auth/pO6TWKUc0bQ95ijjFI27DJO8rpiPsGZPu5IoQBAQMq',
-            'author_name': 'Anonymous',
-            'author_url': '',
-            'short_name': 'anonym'}}
-"""
-
 class Telegraph:
     """
         This Python class, Telegraph, is a wrapper for the Telegra.ph API which allows users to interact with the
